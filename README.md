@@ -107,6 +107,10 @@ Open `index.html` in your browser.
 ## 📸 Preview
 
 > Add screenshots or a GIF of the project here.
+<img width="1200" height="896" alt="about" src="https://github.com/user-attachments/assets/245fa81b-da64-4b9d-9243-258ae7517a98" />
+<img width="1264" height="848" alt="gallery1" src="https://github.com/user-attachments/assets/25a43c8e-d438-422e-bcd9-8ed4abb50a5c" />
+<img width="1376" height="768" alt="hero-bg" src="https://github.com/user-attachments/assets/e94873c4-c5e9-47a0-992c-a21b272de095" />
+
 
 ---
 

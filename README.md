@@ -107,9 +107,10 @@ Open `index.html` in your browser.
 ## 📸 Preview
 
 > Add screenshots or a GIF of the project here.
-<img width="1200" height="896" alt="about" src="https://github.com/user-attachments/assets/245fa81b-da64-4b9d-9243-258ae7517a98" />
-<img width="1264" height="848" alt="gallery1" src="https://github.com/user-attachments/assets/25a43c8e-d438-422e-bcd9-8ed4abb50a5c" />
-<img width="1376" height="768" alt="hero-bg" src="https://github.com/user-attachments/assets/e94873c4-c5e9-47a0-992c-a21b272de095" />
+<img width="1901" height="1093" alt="Screenshot 2026-07-22 181544" src="https://github.com/user-attachments/assets/70f8dc24-5187-4885-8afd-cea1c2285a08" />
+<img width="1917" height="1092" alt="Screenshot 2026-07-22 181556" src="https://github.com/user-attachments/assets/f5f9a653-b0fd-4d83-9156-4d4a772517d7" />
+<img width="1917" height="1095" alt="image" src="https://github.com/user-attachments/assets/6a417073-ddca-462f-b975-a523437bc1de" />
+
 
 
 ---

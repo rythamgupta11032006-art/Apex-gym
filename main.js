@@ -4,7 +4,9 @@
    ============================================================ */
 
 'use strict';
-
+emailjs.init({
+    publicKey: "bhbQQjh8p-1ShD8Rh",
+});
 /* ---- PARTICLES ---- */
 (function initParticles() {
   const container = document.getElementById('particles');

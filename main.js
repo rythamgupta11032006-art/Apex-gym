@@ -423,6 +423,44 @@ document.head.appendChild(style);
     document.body.style.opacity = '1';
   });
 })();
+// =========================
+// EMAILJS CONTACT FORM
+// =========================
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const submitBtn = document.getElementById("contact-submit-btn");
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = "Sending...";
+
+        emailjs.sendForm(
+            "service_a7byl3i",
+            "template_gw5nyb8",
+            this
+        )
+        .then(() => {
+            submitBtn.innerHTML = "Message Sent ✓";
+            document.getElementById("formSuccess").style.display = "block";
+            contactForm.reset();
+
+            setTimeout(() => {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = "Send Message";
+            }, 3000);
+        })
+        .catch((error) => {
+            console.error(error);
+            alert("Something went wrong. Please try again.");
+
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = "Send Message";
+        });
+    });
+}
 
 console.log('%c⚡ APEX GYM', 'color: #FF6B00; font-family: sans-serif; font-size: 24px; font-weight: bold; letter-spacing: 3px;');
 console.log('%cWhere legends are forged.', 'color: #888; font-family: sans-serif; font-size: 12px;');

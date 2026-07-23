@@ -458,6 +458,7 @@ if (contactForm) {
 
             submitBtn.disabled = false;
             submitBtn.innerHTML = "Send Message";
+           submitBtn.innerHTML = "Message Sent ✓";
         });
     });
 }

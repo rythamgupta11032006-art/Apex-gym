@@ -299,6 +299,7 @@ emailjs.init({
 
     const submitBtn = document.getElementById('contact-submit-btn');
     submitBtn.textContent = 'Sending...';
+   submitBtn.innerHTML = "Message Sent ✓";
     submitBtn.disabled = true;
     submitBtn.style.opacity = '0.7';
 
@@ -450,6 +451,7 @@ if (contactForm) {
             setTimeout(() => {
                 submitBtn.disabled = false;
                 submitBtn.innerHTML = "Send Message";
+               submitBtn.innerHTML = "Message Sent ✓";
             }, 3000);
         })
         .catch((error) => {
